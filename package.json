@@ -16,12 +16,12 @@
     "url": "https://github.com/shamahoque/mern-classroom.git"
   },
   "homepage": "https://github.com/shamahoque/mern-classroom",
-  "main": "server.generated.js",
+  "main": "dist/server.generated",
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
     "start123": "NODE_ENV=production node ./dist/server.generated.js",
-    "start": "nodemon"
+    "start": "node dist/server.generated"
   },
   "engines": {
     "node": "13.12.0",
