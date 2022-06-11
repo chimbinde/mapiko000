@@ -16,7 +16,7 @@
     "url": "https://github.com/shamahoque/mern-classroom.git"
   },
   "homepage": "https://github.com/shamahoque/mern-classroom",
-  "main": "./dist/server.generated.js",
+  "main": "server.generated.js",
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
