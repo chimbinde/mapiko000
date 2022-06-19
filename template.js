@@ -8,6 +8,7 @@ export default ({markup, css}) => {
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           >
           <title>MERN Classroom</title>
+          <link rel="apple-touch-icon" sizes="57x57" href="https://ayltoninacio.com.br/img/favicons/apple-touch-icon-57x57.png">
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
           <style>
