@@ -2,7 +2,12 @@ const path = require('path')
 const CURRENT_WORKING_DIR = process.cwd()
 
 const config = {
-    mode: "production",
+    mode: "production", //linha de baixo adicionada
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     entry: [
         path.join(CURRENT_WORKING_DIR, 'client/main.js')
     ],
